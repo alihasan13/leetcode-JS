@@ -1,4 +1,4 @@
-function reverseString(str) {
-    return str.split("").reverse().join("");
-}
+var reverseString = function(s) {
+    return s.reverse()
+};
 reverseString("I love you");
